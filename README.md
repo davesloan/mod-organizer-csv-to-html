@@ -1,4 +1,4 @@
-# Mod Organizer CSV-to-HTML Conversion Script
+# Mod Organizer CSV-to-HTML Conversion Script (For Skyrim)
 
 This script is written in Ruby. You must have Ruby installed on your computer before you can use the script. To use:
  * If you have merged any mods into single esp files and imported them into Mod Organizer, add an exclamation point to the front of the name. It will not be included in the list of activated mods.
@@ -8,4 +8,4 @@ This script is written in Ruby. You must have Ruby installed on your computer be
  * Create a CSV file of all the mods you included when you used Skyrim Mod Combiner. This should simply be one mod name per row. This should be sorted by you as they will not be sorted by the script. Save it as ```smc_list.csv``` in the same directory as the script. (this is optional if you don't use Skyrim Mod Organizer)
  * run ```ruby convert.rb``` from the command line and the script should generate a file called ```mod_list.html```.
 
- Examples of all the CSV files have been included. Please overwrite them with your own data.
+Examples of all the CSV files have been included. Please overwrite them with your own data.
